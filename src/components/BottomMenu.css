@@ -1,0 +1,38 @@
+.bottom-menu-parent{
+    color: wheat;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 12px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.bottom-menu-parent div{
+    display: block;
+    text-align: left;
+}
+
+.bottom-menu-parent div a{
+    display: flex;
+    text-decoration: none;
+    color: wheat;
+    padding: 8px;
+    align-items: center;
+
+}
+.bottom-menu-parent div a img{
+    width: 12px;
+    height: auto;
+    margin-right: 4px;
+}
+.bottom-menu-parent div a:hover{
+    color: #f8eb2f;
+}
+
+.bottom-menu-parent div img{
+    width: 24px;
+    height: auto;
+    margin: 8px;
+}

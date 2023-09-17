@@ -1,0 +1,21 @@
+.hero-section{
+    color: black;
+    text-align: center;
+}
+
+.hero-section h1{
+    margin: 72px 24px 72px 24px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: wheat;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.hero-section p{
+    color: wheat;
+    margin: 48px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 8px;
+    border-radius: 24px;
+}

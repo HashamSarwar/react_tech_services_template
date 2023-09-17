@@ -1,0 +1,44 @@
+.client-section-parent{
+    background-color: rgba(0,0,0,0.5);
+    margin: 12px;
+    border-radius: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 2px dotted wheat;
+}
+.client-section-heading{
+    text-align: center;
+    color: wheat;
+}
+.client-section{
+    color: wheat;
+    display: flex;
+    margin: 12px;
+    border-radius: 8px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.client-section div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 6px;
+    margin: 4px 4px;
+    cursor: pointer;
+    background-color: rgba(233, 231, 231, 0.1);
+    
+}
+
+.client-section div img{
+    margin-right: 8px;
+    width: 24px;
+    height: auto;
+}
+
+@media screen and (max-width: 768px){
+    .client-section{
+        display: block;
+    }
+  } 

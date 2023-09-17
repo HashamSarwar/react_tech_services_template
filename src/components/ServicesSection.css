@@ -1,0 +1,47 @@
+.services-section-parent{
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 12px;
+    margin: 12px;
+    color: wheat;
+    border-radius: 12px;
+    border: 2px dotted wheat;
+}
+.services-section{
+    color: wheat;
+    display: flex;
+}
+.services-section div{
+    background-color: rgba(79, 92, 79, 0.8);
+    margin: 12px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+.services-section img{
+    width: 120px;
+    height: auto;
+}
+.services-section div h2{
+    margin: 12px;
+}
+.services-section div p{
+    font-family: cursive;
+    font-size: 1.2rem;
+    margin-bottom: 24px;
+}
+.services-section div a{
+    text-decoration: none;
+    color:aqua;
+    border: 1px solid aqua;
+    border-radius: 12px;
+    padding: 4px 6px 4px 6px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px){
+    .services-section{
+        display: block;
+    }
+  } 
